@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.adote {
+    background-color: black;
+    color: yellow;
+}
+
+.navbar {
+    display: flex;
+    font-weight: 500;
+}
+
+.home, .contato, .sobre, h3 {
+    padding: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.adote:hover {
+    font-size: xx-large;
+}
+
+
+@media (max-width: 700px) {
+    .adote {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .home, .sobre, .contato {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        border-radius: 4px;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+}
