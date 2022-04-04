@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -39,6 +44,22 @@ a:hover {
 
 .adote:hover {
     font-size: xx-large;
+}
+
+.footer {
+    width: 100%;
+    height: 2em;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid black;
+    background-color: yellow;
+}
+
+.git {
+    position: fixed;
+    left: 0;
 }
 
 
