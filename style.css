@@ -59,20 +59,20 @@ a:hover {
     position: absolute;
     right: 0;
     height: 60%;
+    width: 40%;
     margin-right: 3em;
-    margin-top: 9em;
+    margin-top: 7em;
     background-color: yellow;
 }
 
 .formtext {
     font-weight: bold;
-    font-size: 20px;
 }
 
 .bxs-user, .bx-envelope {
     position: absolute;
     align-self: center;
-    margin-right: 45em;
+    margin-right: 29em;
 }
 
 input {
@@ -90,7 +90,7 @@ button {
     border-radius: 10px;
     border: 1px solid hsla(0, 16%, 82%, 0.627);
     height: 2rem;
-    padding: 0.188rem 0.188rem 0.188rem 1.25rem;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
